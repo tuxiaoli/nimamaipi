@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="54" started-at="2018-12-28T01:40:06Z" finished-at="2018-12-28T01:40:06Z">
+    <groups>
+      <group name="database">
+        <method signature="testngpack.testconnectmysql()[pri:0, instance:testng.testngpack@71f2a7d5]" name="testconnectmysql" class="testng.testngpack"/>
+        <method signature="testngpack.testconnectoracle()[pri:0, instance:testng.testngpack@71f2a7d5]" name="testconnectoracle" class="testng.testngpack"/>
+      </group> <!-- database -->
+      <group name="selenium_test">
+        <method signature="testngpack.runselenium()[pri:0, instance:testng.testngpack@71f2a7d5]" name="runselenium" class="testng.testngpack"/>
+        <method signature="testngpack.runselenium1()[pri:0, instance:testng.testngpack@71f2a7d5]" name="runselenium1" class="testng.testngpack"/>
+        <method signature="testngpack2.runselenium()[pri:0, instance:testng.testngpack2@2cfb4a64]" name="runselenium" class="testng.testngpack2"/>
+        <method signature="testngpack2.runselenium1()[pri:0, instance:testng.testngpack2@2cfb4a64]" name="runselenium1" class="testng.testngpack2"/>
+      </group> <!-- selenium_test -->
+    </groups>
+    <test name="Test" duration-ms="24" started-at="2018-12-28T01:40:06Z" finished-at="2018-12-28T01:40:06Z">
+      <class name="testng.testngpack2">
+        <test-method status="PASS" signature="runselenium()[pri:0, instance:testng.testngpack2@2cfb4a64]" name="runselenium" duration-ms="0" started-at="2018-12-28T09:40:06Z" finished-at="2018-12-28T09:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium -->
+        <test-method status="PASS" signature="runselenium1()[pri:0, instance:testng.testngpack2@2cfb4a64]" name="runselenium1" duration-ms="1" started-at="2018-12-28T09:40:06Z" finished-at="2018-12-28T09:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium1 -->
+      </class> <!-- testng.testngpack2 -->
+      <class name="testng.testngpack">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testng.testngpack@71f2a7d5]" name="setup" is-config="true" duration-ms="4" started-at="2018-12-28T09:40:06Z" finished-at="2018-12-28T09:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="runselenium()[pri:0, instance:testng.testngpack@71f2a7d5]" name="runselenium" duration-ms="3" started-at="2018-12-28T09:40:06Z" finished-at="2018-12-28T09:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium -->
+        <test-method status="PASS" signature="runselenium1()[pri:0, instance:testng.testngpack@71f2a7d5]" name="runselenium1" duration-ms="0" started-at="2018-12-28T09:40:06Z" finished-at="2018-12-28T09:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runselenium1 -->
+        <test-method status="PASS" signature="testconnectmysql()[pri:0, instance:testng.testngpack@71f2a7d5]" name="testconnectmysql" duration-ms="1" started-at="2018-12-28T09:40:06Z" finished-at="2018-12-28T09:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testconnectmysql -->
+        <test-method status="PASS" signature="testconnectoracle()[pri:0, instance:testng.testngpack@71f2a7d5]" name="testconnectoracle" duration-ms="1" started-at="2018-12-28T09:40:06Z" finished-at="2018-12-28T09:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testconnectoracle -->
+        <test-method status="PASS" signature="cleandb()[pri:0, instance:testng.testngpack@71f2a7d5]" name="cleandb" is-config="true" duration-ms="0" started-at="2018-12-28T09:40:06Z" finished-at="2018-12-28T09:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleandb -->
+      </class> <!-- testng.testngpack -->
+    </test> <!-- Test -->
+    <test name="selenium" duration-ms="1" started-at="2018-12-28T01:40:06Z" finished-at="2018-12-28T01:40:06Z">
+    </test> <!-- selenium -->
+  </suite> <!-- Suite -->
+</testng-results>
